@@ -557,7 +557,7 @@ library(ggmap)
 Plots for 25 districts:
 
 ``` r
-register_google(key = "AIzaSyAun0z6kRNAS_2rKc7ocPDPWOiy62s6FIs")
+register_google(key = "My API")
 
 cen <- c(mean(station_info$Longitude), mean(station_info$Latitude))
 
